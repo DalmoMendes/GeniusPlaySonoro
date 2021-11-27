@@ -1,0 +1,159 @@
+/* ----------------------------------------------------------------------
+// Versão Original - Digitalinnovation.one
+// Por Dalmo Silva Mendes, New Verson: Genius Play Sonoro v1.0
+// Boa Vista-RR, 27/11/2021 - Git: https://github.com/DalmoMendes/
+-------------------------------------------------------------------------
+Além dos recursos iniciais, este projeto tem o objetivo de não executar
+uma música no início da segunda rodada do game. Além disso, cada clique,
+respostas corretas ou erradas são emitidos avisos sonoros antes e após
+clicar em OK. Para isso, criei 4 funções Acertou, Errou, ClickSom e Start.
+Também adicionei alguns recursos de css como genius:hover, 
+transition-duration, box-shadow, background: linear-gradient, 
+cursor: pointer e tela responsive usando 
+@media screen and (max-width: 320px) etc. 
+Divirta-se com o Genius Play Sonoro v1.0! 
+Tente fazer a música parar.
+---------------------------------------------------------------------------
+*/
+body{
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,9,121,1) 35%, rgba(0,212,255,1) 100%);  
+}
+a:link, a:visited {
+    background-color: #348008;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #fff;
+  }
+  .btn{
+    padding: 14px 25px;
+    background: rgb(9, 67, 122);
+    border-radius: 8px;
+  }
+  .btn:hover{
+    color: orange;
+    font-weight: bold;
+    font-size: 14px;
+    transition-duration: 0.5s;
+    -webkit-box-shadow: -1px 5px 31px 30px #5352FF; 
+    box-shadow: -1px 5px 31px 30px #5352FF;
+  }
+.main-game{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.genius{
+    display: grid;
+    grid-template-areas: 'verde vermelho'
+    'amarelo azul';
+    grid-gap: 10px;
+    border: 5px solid #fff;
+    background-color: #fff;
+    border-radius:100%;
+    width: 400px;
+    height: 400px;
+}
+.text-center{
+    text-align: center;
+    color: #fff;
+}
+.genius:hover{
+    transition-duration: 1s;
+    -webkit-box-shadow: -1px 5px 31px 30px #5352FF; 
+    box-shadow: -1px 5px 31px 30px #5352FF;
+    cursor: pointer;
+}
+/* Top à Esquerda - 0 */
+.green{
+    grid-area: verde;
+    background-color: rgb(39, 102, 2);
+    border-top-left-radius: 100%;
+}
+/* Top à Direita - 1 */
+.red{
+    grid-area: vermelho;
+    background-color: rgb(251, 2, 2);
+    border-top-right-radius: 100%;
+}
+/* Base à Esquerda - 2 */
+.yellow{
+    grid-area: amarelo;
+    background-color: rgb(250, 234, 4);
+    border-bottom-left-radius: 100%;
+}
+/* Base à Direita - 3 */
+.blue{
+    grid-area: azul;
+    background-color: rgb(2, 2, 246);
+    border-bottom-right-radius: 100%;
+}
+
+.selected{
+    opacity: 0.2;
+}
+
+/* Tela Responsive */
+@media screen and (max-width: 1024px) {
+    .main-game{
+        height: 90vh;
+        width: 90vh;
+    }
+    .btn{
+        padding: 10px 20px;
+        background: rgb(105, 9, 122);
+        border-radius: 8px;
+      }
+    .genius{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .main-game{
+        height: 80vh;
+        width: 80vh;
+    }
+    .btn{
+        padding: 8px 18px;
+        background: rgb(105, 9, 122);
+        border-radius: 6px;
+      }
+    .genius{
+        grid-gap: 6px;
+        border: 3px solid #fff;
+        border-radius:100%;
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-game{
+        height: 70vh;
+        width: 70vh;
+    }
+    .btn{
+        padding: 4px 16px;
+        background: rgb(122, 92, 9);
+        border-radius: 4px;
+      }
+    .genius{
+        grid-gap: 4px;
+        border: 2px solid rgb(31, 1, 1);
+        border-radius:100%;
+        width: 280px;
+        height: 280px;
+    }
+}
