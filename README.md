@@ -15,5 +15,4 @@ Entre outros recursos. Divirta-se com o Genius Play Sonoro v1.0! Tente fazer a m
 <h4>Tela Responsive - GeniusPlaySonoro </h4>
 <img src="https://raw.githubusercontent.com/DalmoMendes/GeniusPlaySonoro/master/Dalmo7ptsResponsive.bmp"/>
 <h4> Vídeo apresentação - GeniusPlaySonoro </h4>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NxMrVKON-u0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a src="https://www.youtube.com/embed/NxMrVKON-u0">Link do Vídeo Youtube</a>
