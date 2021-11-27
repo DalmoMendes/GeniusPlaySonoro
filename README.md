@@ -3,3 +3,5 @@ O projeto tem o objetivo de não executar uma música no início da segunda roda
 # Tela Desktop - GeniusPlaySonoro
 <img src="https://raw.githubusercontent.com/DalmoMendes/GeniusPlaySonoro/master/GeniusPlaySonoro-Front-end-Start.bmp"/>
 # Tela Responsive - GeniusPlaySonoro
+<img src="https://raw.githubusercontent.com/DalmoMendes/GeniusPlaySonoro/master/Dalmo7pts-Responsive.bmp"/>
+# Vídeo apresentação - GeniusPlaySonoro
