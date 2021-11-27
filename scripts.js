@@ -129,7 +129,7 @@ let gameOver = () => {
 // Função de início de jogo
 let playGame = () => {
         Start(); // Toca um som ao iníciar o Game ao iníciar o 
-        alert('Gênius! Start Game Play!');
+        alert('Genius! Start Game Play!');
         score = 0;
         nextLevel();
     
