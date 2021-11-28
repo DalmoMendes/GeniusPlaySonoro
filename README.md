@@ -11,7 +11,7 @@ Entre outros recursos. Divirta-se com o Genius Play Sonoro v1.0! Tente fazer a m
 <h4>Resultados</h4>
 <p>O GeniusPlaySonoro resultou em uma ótima ferramenta para aplicação em cursos de informática básica para crianças e idosos, pois, permite acelerar o processo de aprendizagem do manuseio do MOUSE e o uso do botão esquerdo. Tarefas fundamentas para quem tem dificuldades com rato. Além disso, aumenta a concentração e o raciocínio do usuário.</p> 
 <h4>Tela Desktop - GeniusPlaySonoro </h4>
-<img src="https://raw.githubusercontent.com/DalmoMendes/GeniusPlaySonoro/master/Front-end-Start.bmp"/>
+<img src="https://github.com/DalmoMendes/GeniusPlaySonoro/blob/master/Front-end-start.bmp"/>
 <h4>Tela Responsive - GeniusPlaySonoro </h4>
 <img src="https://raw.githubusercontent.com/DalmoMendes/GeniusPlaySonoro/master/Dalmo7ptsResponsive.bmp"/>
 <h4> Vídeo apresentação - GeniusPlaySonoro </h4>
